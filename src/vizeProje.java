@@ -8,7 +8,7 @@ import java.util.Properties;
 import java.util.Scanner;
 
 
-class emailsender {
+/*class emailsender {
 
 
     public static void main(String [] alıcılar) {
@@ -61,7 +61,7 @@ class emailsender {
         }
     }
 }
-
+*/
 
 public class vizeProje {
     public static void main(String[] args) throws IOException {
@@ -151,8 +151,8 @@ public class vizeProje {
                                     araBellek[n]=email;
                                     System.out.println(araBellek[n]);
                                     n++;
-                                    emailsender emailSender= new emailsender();// alttaki kodlarda olduğu gibi bu satırda mail gönderme classına gönderiyor
-                                    emailSender.main(araBellek );
+                                    //emailsender emailSender= new emailsender();// alttaki kodlarda olduğu gibi bu satırda mail gönderme classına gönderiyor
+                                   // emailSender.main(araBellek );
                                 }
                             }
                         }
@@ -174,8 +174,8 @@ public class vizeProje {
                                     araBellek[n]=email;
                                     System.out.println(araBellek[n]);
                                     n++;
-                                    emailsender emailSender= new emailsender();
-                                    emailSender.main(araBellek);
+                                    //emailsender emailSender= new emailsender();
+                                    //emailSender.main(araBellek);
                                 }
                             }
                         }
@@ -204,8 +204,8 @@ public class vizeProje {
                                     araBellek[n]=email;
                                     System.out.println(araBellek[n]);
                                     n++;
-                                    emailsender emailSender= new emailsender();
-                                    emailSender.main(araBellek);
+                                    //emailsender emailSender= new emailsender();
+                                   // emailSender.main(araBellek);
                                     // System.out.println(email);
                                 } else {
                                     // ELİT UYELER veya GENEL UYELER kısmına henüz gelmedik, UYELER yazdır
